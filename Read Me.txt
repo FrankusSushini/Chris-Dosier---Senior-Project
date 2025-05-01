@@ -1,0 +1,19 @@
+Chris Dosier - Senior Project
+
+Description: My senior project is based on the Raspberry Pi-5 and its Camera Module. It is a motion detection script. I would like it to be used as a security system, it also works for USB cameras with some minor tweaks. It has smart object detection, so it ignores backgrounds. It automatically creates the necessary files for saving the data gained from the camera and it has an adjustable sensitivity setting in the file.
+
+Requirements:
+
+My file should work with any pi-cam 3 and pi-5 system with updated firmware.
+
+How to run: 
+
+1. Connect camera (Pi Camera/USB) and power on Pi
+
+2. Install dependencies: sudo apt install python3-picamera2 python3-opencv
+
+3. Save script as ~/motion_detector.py and make executable (chmod +x)
+
+4. Test run: python3 ~/motion_detector.py (press Q to quit)
+
+5. View captures: ls ~/motion_captures or just navigate to the file destination of your choice
